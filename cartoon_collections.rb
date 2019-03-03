@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   names.each.with_index(1) do |dwarf, index|
   puts "#{index}. #{dwarf}" 
-end
+  end
 end
 
 def summon_captain_planet(calls)
@@ -13,7 +13,7 @@ def long_planeteer_calls(calls)
     true 
   else
     false
-end
+  end
 end
 
 def find_the_cheese(potentially_cheesy_items)
@@ -23,4 +23,3 @@ def find_the_cheese(potentially_cheesy_items)
     cheeses.include?(maybe_cheese)
   end
 end
-
